@@ -1,0 +1,85 @@
+
+/* /////////////////////////////////////////////// */
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.bg-light{
+    background-color: #ecedef !important;
+}
+.navbar-collapse{
+    text-align: center;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    font-size:17px;
+    font-family: Droid Arabic Kufi,sans-serif;    
+    color: #2d383f;
+    padding: 14px;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color:rgb(209, 44, 44);
+}
+/* ------------------------------------------------------------------------------------------------ */
+.jumbotron{
+    background-color: #F9F9F9;
+}
+.jumbotron a{
+    color: #3B97BA;
+    font-weight: bold;
+}
+/* ------------------------------ */
+#sidebar a{
+    color: #2d383f;
+}
+@media screen and (max-width: 1000px) {
+    #sidebar{
+        display: none;
+    }
+}
+/*------------------------------------- Footer -------------------------*/
+.ficon a{
+    padding: 10px 22px;
+}
+.ficon a .fab{
+    padding: 10px;
+    height: 100px;
+    color: white;
+}
+.foot .trips a{
+    font-size: 16px;
+    padding: 15px 6px;
+}
+.foot a{
+    color: #3b97ba;
+    font-size: 14px;
+}
+.footlink .nav-item .nav-link{
+    color: #2d383f;
+}
+@media screen and (max-width: 1200px) {
+    .willHidden{
+        display: none;
+    }
+}
+/* ------------------------------ */
+.card .card-footer .btn{
+    background-color: white !important;
+    padding: 4px 12px;
+}
+/* --------------------------------- */
+.pagination .page-item .page-link{
+    margin-left: 2px;
+    font-weight: bold;
+    color: red;
+}
+.pagination .active .page-link{
+    background-color: silver;
+    color: #2d383f;
+}
+.pagination .but .page-link{
+    background-color: red;
+    color: white;
+}
+/* -------------------------------- add Announcement --------------*/
+.meza .fa{
+    color: #38ae43;
+}
