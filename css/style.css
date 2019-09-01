@@ -104,3 +104,14 @@ body {
     line-height: 0.1em;
     margin: 10px 0 20px; 
  }
+ .announce .icons span{
+    display: inline-block;
+    width: 70px;
+    border: 2px dotted white;
+    height: 70px;
+    margin: 6px;
+    background-color: rgb(241, 187, 187);
+}
+.contrInput .form-control{
+    width: 50%;
+}
