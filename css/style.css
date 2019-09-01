@@ -35,6 +35,11 @@ body {
         display: none;
     }
 }
+@media screen and (max-width:1000px){
+    .Akars{
+        display: none;
+    }
+}
 /*------------------------------------- Footer -------------------------*/
 .ficon a{
     padding: 10px 22px;
@@ -83,3 +88,19 @@ body {
 .meza .fa{
     color: #38ae43;
 }
+/* --------------------------------------- page of announcement ---------------------------------- */
+.line- h3 span{ 
+    background:white;
+    color: rgb(84, 83, 85);
+    padding:0 10px; 
+}
+.line- h3{
+    color: white;
+    font-weight: bolder;
+    width: 100%; 
+    font-size: 22px;
+    text-align: center; 
+    border-bottom: 1px solid rgb(58, 8, 8);
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ }
