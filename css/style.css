@@ -35,15 +35,23 @@ body {
         display: none;
     }
 }
-@media screen and (max-width:1000px){
-    .Akars{
-        display: none;
-    }
 
 @media screen and (max-width : 600px){
     .imageHide{
         display: none;
     }
+}
+/* -------------------------------------------- Akars Div ----------------*/
+.akarBackground{
+    background: url(../images/back.jpg);height: 250px;
+}
+.divOverlay{
+    clear: both;
+    margin-top : 140px;
+    color: white;background-color: hsla(0,0%,100%,.85);width: 100%;height: 86px;    
+}
+.divOverlay a h5{
+    color: #3b97ba;
 }
 /*------------------------------------- Footer -------------------------*/
 .ficon a{
@@ -94,12 +102,12 @@ body {
     color: #38ae43;
 }
 /* --------------------------------------- page of announcement ---------------------------------- */
-.line- h3 span{ 
+.Akars .line- h3 span{ 
     background:white;
     color: rgb(84, 83, 85);
     padding:0 10px; 
 }
-.line- h3{
+.Akars .line- h3{
     color: white;
     font-weight: bolder;
     width: 100%; 
@@ -109,6 +117,7 @@ body {
     line-height: 0.1em;
     margin: 10px 0 20px; 
  }
+ 
  .announce .icons span{
     display: inline-block;
     width: 70px;
