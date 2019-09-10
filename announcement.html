@@ -31,13 +31,13 @@
               <!-- The slideshow -->
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="images/image1.webp" width="100%" height="400px" alt="Los Angeles">
+                  <img src="images/image1.webp">
                 </div>
                 <div class="carousel-item">
-                  <img src="images/image2.webp" width="100%" height="400px" alt="Chicago">
+                  <img src="images/image2.webp">
                 </div>
                 <div class="carousel-item">
-                  <img src="images/image1.webp" width="100%" height="400px" alt="New York">
+                  <img src="images/image1.webp">
                 </div>
               </div>
             
@@ -51,9 +51,9 @@
             
             </div><br>
             <button class="btn btn-success" id="showImage">عرض الصور</button><br><br>
-            <div id="imageHide" style="display: none">
-              <img src="images/image1.webp" style="border: 1px solid black;width: 100%;height:400px"><br><br>
-              <img src="images/image2.webp" style="border: 1px solid black;width: 100%;height:400px"><br><br>
+            <div id="imageHide">
+              <img src="images/image1.webp" ><br><br>
+              <img src="images/image2.webp" ><br><br>
               <button class="btn btn-primary" id="againHide">إخفاء الصور </button>
             </div>
             
@@ -149,10 +149,10 @@
               </div> 
           </div>
           <div class="col-lg-3 col-md-4 text-right" dir="ltr">
-            <div class="jumbotron p-2" style="color: black;border: 1px solid rgb(165, 152, 152)">
-              <img src="images/wasset.webp" style="margin-right: auto;margin-left: auto;display: block;border: 1px solid rgb(197, 177, 177)">
+            <div class="jumbotron p-2 sideBar">
+              <img src="images/wasset.webp">
               <p class="mr-2"> <b>Ahmed Esmaiel</b> &nbsp;&nbsp;&nbsp; :وسيط </p>
-              <p style="font-size: 13px" class="mr-2"><b> Go Green Egypt Real Estate</b> &nbsp;&nbsp;&nbsp; :الشركة  </p>
+              <p class="mr-2 paragraph"><b> Go Green Egypt Real Estate</b> &nbsp;&nbsp;&nbsp; :الشركة  </p>
               <a class="mr-2" href="#">شاهد جميع عقاراتنا</a><hr>
               <h5 class="text-center text-danger">
                 <select dir="rtl">
@@ -161,8 +161,8 @@
                   <option>&nbsp; EGP &nbsp;</option>
                 </select>  8,5000,000 &nbsp;
               </h5>
-              <button class="btn btn-danger btn-block text-right" style="font-size: 22px;background-color:#EF5E4E">إتصل الآن <i class="fa fa-phone"></i></button>
-              <button data-toggle="modal" data-target="#myModal" class="btn btn-danger btn-block text-right" style="font-size: 22px;background-color:#EF5E4E"> راسل الآن <i class="fa fa-envelope"></i></button><br>
+              <button class="btn btn-danger btn-block text-right contac">إتصل الآن <i class="fa fa-phone"></i></button>
+              <button data-toggle="modal" data-target="#myModal" class="btn btn-danger btn-block text-right contac"> راسل الآن <i class="fa fa-envelope"></i></button><br>
             </div>
           </div>
         </div><br>
@@ -196,7 +196,7 @@
                 <div class="container-fluid">
                   <div class="text-right" dir="rtl">
                     
-                      <img src="images/image1.webp"  style="float: right;width: 40%;margin-left: 5px" class="card-img" alt="...">
+                      <img src="images/image1.webp" class="card-img" alt="...">
                    
                     
                       <h5> فيلا - كمبوند ماونتن فيو رأس الحكمة </h5>
@@ -301,15 +301,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        <script>
-            $(document).ready(function(){
-              $("#showImage").click(function(){
-                $('#imageHide').css("display","block");
-              });againHide
-              $("#againHide").click(function(){
-                $("#imageHide").css("display","none");
-              });
-            });
-          </script>
+        <script src="js/file.js"></script>
     </body>
 </html>
